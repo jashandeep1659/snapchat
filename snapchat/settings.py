@@ -76,14 +76,23 @@ WSGI_APPLICATION = "snapchat.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": BASE_DIR / "db.sqlite3",
+#     }
+# }
+
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "dd9bnjtnhnp3rs",
+        "USER": "ywdxzkpxvtyhie",
+        "PASSWORD": "12739493511642185ff9738d478f97d9c2e4e34d15ac6164b77813ec3f3baf75",
+        "HOST": "ec2-52-204-195-41.compute-1.amazonaws.com",
+        "PORT": "5432",
     }
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
 
