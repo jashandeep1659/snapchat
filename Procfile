@@ -1,0 +1,1 @@
+web: gunicorn snapchat.wsgi --log-file -
